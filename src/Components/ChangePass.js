@@ -44,7 +44,7 @@ function ChangePass() {
         }
       );
       console.log(res);
-      setPassword("");
+      setPassword(""); 
       setPassword1("");
       setErr("");
       setInfo("Please log in again with the new password", res.data);
